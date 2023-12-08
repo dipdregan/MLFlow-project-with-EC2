@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/End_To_End_project/MLFlow-project-with-EC2-main/MLFlow-project-with-EC2/mlruns/0/9f50b879efb449e296cf054f4f38a44b/artifacts
+end_time: 1702013758559
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f50b879efb449e296cf054f4f38a44b
+run_name: unequaled-snake-657
+run_uuid: 9f50b879efb449e296cf054f4f38a44b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702013749323
+status: 3
+tags: []
+user_id: lenovo

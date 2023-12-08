@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/End_To_End_project/MLFlow-project-with-EC2-main/MLFlow-project-with-EC2/mlruns/0/2a0a860b5892454c8c8dd8635a2fc290/artifacts
+end_time: 1702013897643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a0a860b5892454c8c8dd8635a2fc290
+run_name: placid-goose-764
+run_uuid: 2a0a860b5892454c8c8dd8635a2fc290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702013888343
+status: 3
+tags: []
+user_id: lenovo
