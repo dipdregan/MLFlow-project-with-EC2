@@ -1,4 +1,5 @@
 from mlProject.constants import *
+import os
 from mlProject.utils.common import read_yaml, create_directories
 from mlProject.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig
 
@@ -92,7 +93,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/AsarlaRajkumar/MLFlow-project-with-EC2.mlflow",
+            mlflow_uri=os.environ.get("MLFLOW_TRACKING_URI")
         )
 
         return model_evaluation_config

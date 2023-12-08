@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/End_To_End_project/MLFlow-project-with-EC2-main/MLFlow-project-with-EC2/mlruns/0/204ca279c99d4d28b11e7a6fdc911747/artifacts
+end_time: 1702022694303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 204ca279c99d4d28b11e7a6fdc911747
+run_name: thoughtful-grub-966
+run_uuid: 204ca279c99d4d28b11e7a6fdc911747
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702022686407
+status: 3
+tags: []
+user_id: lenovo
