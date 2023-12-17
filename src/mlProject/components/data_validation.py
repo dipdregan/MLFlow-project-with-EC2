@@ -1,13 +1,17 @@
+
 import os
 from mlProject import logger
 import pandas as pd
 from mlProject.entity.config_entity import DataValidationConfig
+
+
 
 class DataValiadtion:
     def __init__(self, config: DataValidationConfig):
         self.config = config
 
 
+    
     def validate_all_columns(self)-> bool:
         try:
             validation_status = None

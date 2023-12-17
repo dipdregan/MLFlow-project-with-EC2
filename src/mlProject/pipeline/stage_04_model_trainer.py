@@ -16,6 +16,8 @@ class ModelTrainerTrainingPipeline:
         model_trainer_config.train()
 
 
+
+
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -25,3 +27,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
+

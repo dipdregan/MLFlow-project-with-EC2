@@ -2,6 +2,7 @@ from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.model_evaluation import ModelEvaluation
 from mlProject import logger
 
+
 STAGE_NAME = "Model evaluation stage"
 
 class ModelEvaluationTrainingPipeline:
@@ -16,6 +17,7 @@ class ModelEvaluationTrainingPipeline:
 
 
 
+
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -25,3 +27,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
+

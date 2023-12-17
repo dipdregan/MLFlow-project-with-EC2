@@ -4,14 +4,11 @@ from mlProject import logger
 from pathlib import Path
 
 
-
-
 STAGE_NAME = "Data Transformation stage"
 
 class DataTransformationTrainingPipeline:
     def __init__(self):
         pass
-
 
     def main(self):
         try:
@@ -29,7 +26,7 @@ class DataTransformationTrainingPipeline:
 
         except Exception as e:
             print(e)
-
+            
 
 
 if __name__ == '__main__':
@@ -41,8 +38,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
-
-
-
-
 

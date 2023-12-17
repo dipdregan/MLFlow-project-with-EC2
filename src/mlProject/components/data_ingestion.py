@@ -6,6 +6,8 @@ from mlProject.utils.common import get_size
 from pathlib import Path
 from mlProject.entity.config_entity import DataIngestionConfig
 
+
+
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
@@ -20,11 +22,11 @@ class DataIngestion:
             )
             logger.info(f"{filename} download! with following info: \n{headers}")
         else:
-            logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")
+            logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")  
 
 
-
-    def extract_zip_file_(self):
+    
+    def extract_zip_file(self):
         """
         zip_file_path: str
         Extracts the zip file into the data directory
@@ -34,3 +36,4 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
+
