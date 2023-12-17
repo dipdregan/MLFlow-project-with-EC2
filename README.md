@@ -70,9 +70,9 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/AsarlaRajkumar/MLFlow-project-with-EC2.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/dipdregan/MLFlow-project-with-EC2.mlflow
 
-export MLFLOW_TRACKING_USERNAME=AsarlaRajkumar 
+export MLFLOW_TRACKING_USERNAME=dipdregan
 
 export MLFLOW_TRACKING_PASSWORD=e61ddc3df2be98b52a06e08cbc0c69aef7a65ec6
 
@@ -162,6 +162,40 @@ MLflow
  - Its Production Grade
  - Trace all of your expriements
  - Logging & tagging your model
+
+## Deployment cmd for awscli
+```
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+sudo usermod -aG docker ubuntu
+newgrp docker
+
+## verify docker is running or not for that --
+docker --version
+
+now go to github project 
+- setting
+   - action
+	- runner
+	  - New self hosted runner
+	     - linux
+		-u will get the cmd copy the cmd one by one and paste in wc2 turminal
+
+- setting
+   - Secreate and variables
+      - action 
+	 - Repository secrets
+	    -new Repository secrets
+		AWS_ACCESS_KEY_ID=
+    	AWS_SECRET_ACCESS_KEY=
+		AWS_REGION = us-east-1
+		AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+		ECR_REPOSITORY_NAME = simple-app
+```
 
 
 
