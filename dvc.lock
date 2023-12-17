@@ -125,8 +125,8 @@ stages:
     deps:
     - path: src/mlProject/components/model_evaluation.py
       hash: md5
-      md5: 41c4e9c88d38fb8ad94d6ef2c6108db0
-      size: 3583
+      md5: aafadf8e5891321a0ad7b0fd87131037
+      size: 3200
     - path: src/mlProject/config/configuration.py
       hash: md5
       md5: b5ef8a400d3e750b3d99d5b37b4bafbe
